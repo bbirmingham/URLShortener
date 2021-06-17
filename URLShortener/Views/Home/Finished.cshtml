@@ -1,0 +1,7 @@
+﻿@model URLShortener.Models.CreateModel
+
+@{
+    ViewData["Title"] = "Shorten URL - Finished";
+}
+
+<p>Success! The URL <a target="_blank" href="@Model.URL">@Model.URL</a> has now been shortened to <a target="_blank" href="@Model.URLShortened">@Model.URLShortened</a></p>
